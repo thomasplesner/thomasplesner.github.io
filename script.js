@@ -1,3 +1,4 @@
+const toggleMenuOpen = () => document.body.classList.toggle("open");
 const card = document.querySelector('#card');
 let clicked = false;
 let startTop = card.offsetTop;

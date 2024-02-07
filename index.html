@@ -4,28 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Thomas Plesner - portfolio</title>
 </head>
 <body class="index">
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+        <script>$(function(){$("#nav-placeholder").load("nav.html");});</script>
+        <!--end of Navigation bar-->
 
-    <nav class="navbar">
-        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
 
-        <button id="navbut" type="button" class="navbar-burger" onclick="toggleMenuOpen()">
-            <span class="material-icons">menu</span>
-        </button>
-
-        <h1 class="navbar-title">Thomas Plesner</h1>
-        <nav class="navbar-menu">
-            <button id="navbut" type="button" class="active"><a href="quiz.html">Quiz</a></button>
-
-        </nav>
-    </nav>
-
-<script type="text/javascript">
-    const toggleMenuOpen = () => document.body.classList.toggle("open");
-</script>
 
     <div id="card" class="card">
 

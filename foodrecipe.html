@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="food.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Recipes</title>
+</head>
+<body class="food">
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>$(function(){$("#nav-placeholder").load("nav.html");});</script>
+    <!--end of Navigation bar-->
+
+    <header>
+        <div class="foodhead">
+            <h1>Recipes:</h1>
+        </div>
+
+
+
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Enter an ingredient...">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
+
+    <div id="mealList" class="meal-list"></div>
+    <div class="modal-container">
+        <button id="recipeCloseBtn" class="close-button">&times;</button>
+        <div class="meal-details-content">
+            <!-- Content from js here-->
+        </div>
+    </div>
+
+    <script src="food.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
