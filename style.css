@@ -14,11 +14,21 @@
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
-    display: flex;
+    background-color: black;
+    overflow: hidden;
+
+
+}
+
+.dindex{
+    height: 90vh;
     align-items: center;
     justify-content: center;
+    display: flex;
     text-align: center;
-    overflow: hidden;
+
+
+
 }
 
 #navbut {
@@ -151,7 +161,7 @@ body.open .navbar-menu{
 
 .card{
     position: absolute;
-    width: 400px;
+    width: 600px;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     padding: 40px;
@@ -174,7 +184,7 @@ body.open .navbar-menu{
     display: block;
     border-bottom: 1px solid #ffffff20;
     background-image: url(src/background.jpg);
-    background-size: cover;
+    background-size: 100vh;
     background-position: center;
 }
 

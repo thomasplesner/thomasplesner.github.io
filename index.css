@@ -1,0 +1,58 @@
+header h1{
+font-weight: 500;
+font-size: 1.75rem;
+text-transform: uppercase;
+line-height: 1;
+}
+
+header span{
+font-weight: 800;
+font-size: 7rem;
+display: block;
+}
+.card-body p.title{
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ffffff20;
+}
+
+.card-body p.subtitle{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffffff20;
+}
+
+.skills{
+    bottom: 30px;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.skills .bottom{
+
+    width: 50vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.skills .bottom .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383e45;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.skills .bottom .item i{
+    font-size: 34px;
+}
