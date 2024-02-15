@@ -3,6 +3,16 @@ font-weight: 500;
 font-size: 1.75rem;
 text-transform: uppercase;
 line-height: 1;
+
+}
+
+header h1 .stretch{
+    display: flex;
+    justify-content:space-between;
+    width: 97%;
+    margin: auto;
+    text-shadow: #fff;
+
 }
 
 header span{
@@ -37,7 +47,7 @@ display: block;
 
 .skills .bottom{
 
-    width: 50vw;
+    width: 600px;
     display: flex;
     margin: auto;
     justify-content: space-evenly;
@@ -48,13 +58,26 @@ display: block;
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.144);
     border: 1px solid #ffffff20;
     width: 50px;
     height: 50px;
     border-radius: 10px;
 }
 
+.skills .bottom .item:hover{
+    transform: scale(1.1);
+
+    
+
+}
+
 .skills .bottom .item i{
     font-size: 34px;
 }
+
+.skills .bottom .item p{
+    display: none;
+}
+
+
